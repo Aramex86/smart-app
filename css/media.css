@@ -1,0 +1,631 @@
+@media screen and (max-width: 1024px){
+    .top-nav ul{
+        margin-left: -15px;
+        padding-top: 10px;
+    }
+    .nav-menu li{
+        display: inline-block;
+        padding-left: 29px;
+    }
+    .top-contacts li{
+        display: inline-block;
+        padding-left: 24px;
+        padding-top: 10px;
+    }
+    .header-bottomintro{
+        width: 100%;
+        padding-top: 80px;
+        color: #ffffff;
+        text-align: left;
+        padding-left: 0;
+    }
+    .header-bottomintro h2{
+        padding-bottom: 20px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .active{
+        display: block;
+    }
+    .show{
+        display: block;
+        padding-top: 70px;
+    }
+    .features-phone{
+        padding-right: 6px;
+        padding-top: 110px;
+        padding-bottom: 82px;
+    }
+    .features-description{
+        width: 70%;
+        padding-top: 162px;
+    }
+    .slider1{
+        display: flex;
+        justify-content: center;
+        width: 85%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .image{
+        padding-right: 39px;
+        padding-top: 82px;
+        /* padding-bottom: 24px; */
+        margin-left: -7%;
+    }
+    .productintro{
+        width: 60%;
+        padding-top: 107px;
+        padding-bottom: 84px;
+    }
+    .testimonials h3{
+        text-align: center;
+        padding-bottom: 44px;
+        font-family: Raleway, sans-serif;
+        color: #666c6c;
+        font-weight: bold;
+        font-size: 31px;
+    }
+    .newstext h3{
+        font-size: 33px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        color: #8d9292;
+        padding-top: 50px;
+    }
+    .anvelope{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 50px;
+    }
+    .formmail input{
+        width: 710px;
+        height: 56px;
+        border: 1px solid #c5c5c5;
+        border-radius: 50px;
+        margin-left: 108px;
+    }
+    .formmail button{
+        background: none;
+        border: none;
+        background-color: #87c98a;
+        border-radius: 50px;
+        width: 172px;
+        height: 56px;
+        position: relative;
+        right: 124px;
+        color: #ffffff;
+        font-family: Raleway,sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 775px){
+    .header-bottomintro h2{
+        padding-bottom: 20px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    #burger{
+        display: flex;
+        width: 45px;
+        height: 45px;
+        background: initial;
+        border: none;
+        background-image: url(../images/features/burger_menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #close{
+        display: flex;
+        width: 45px;
+        height: 45px;
+        background: initial;
+        border: none;
+        background-image: url(../images/features/burger_menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 25px;
+        right: 77px;
+    }
+    #menupanel{
+        height: 100vh;
+        display: none;
+    }
+    .burgerwrap{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .nav-menu a{
+        color: #cecfcf;
+        text-decoration: none !important;
+        font-family: Raleway,sans-serif;
+        font-size: 22px;
+    }
+    .top-menu{
+        display: flex;
+        flex-direction: row;
+         justify-content: start;
+        align-items: center;
+        padding-bottom: 36px;
+        padding-top: 25px;
+    }
+    .top-nav ul{
+        margin-left: -15px;
+        padding-top: 10px;
+
+    }
+    .top-contacts{
+        margin-left: -81px;
+        margin-top: 107px;
+        font-size: 17px;
+        font-weight: bold;
+        display: none;
+    }
+    .top-menuwrap{
+
+        width: 50%;
+        position: absolute;
+        top: 150px;
+        left: 260px;
+    }
+    .top-nav{
+
+    }
+    .top-nav li {
+        padding-bottom: 25px;
+        display: none;
+
+    }
+
+
+    .topsecond-intro{
+        padding-bottom: 44px;
+        font-size: 24px;
+        font-family: Raleway,sans-serif;
+    }
+    .header-bottomintro p:nth-child(3){
+        line-height: 25px;
+        color: #a9c6d0;
+        font-family: Raleway,sans-serif;
+        font-size: 11px;
+        padding-bottom: 55px;
+    }
+    .header-bottomintro button{
+        background: none;
+        width: 216px;
+        height: 48px;
+        border: 2px solid #a9c6d0;
+        border-radius: 50px;
+        color: #ffffff;
+        font-family: Raleway,sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .features-wrap h3{
+        font-size: 30px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        color: #8d9292;
+        padding-bottom: 40px;
+    }
+    .features-wrap p{
+        padding-bottom: 68px;
+        font-size: 12px;
+        font-family: Raleway,sans-serif;
+        color: #8d9292;
+        line-height: 23px;
+    }
+    .left-menu{
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-start;
+    }
+    .features-description h3{
+        color: #87c98b;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        width: 81%;
+        font-size: 25px;
+    }
+    .features-description p:nth-child(3){
+        font-size: 25px;
+        color: #8d9292;
+        width: 75%;
+        font-family: Raleway,sans-serif;
+        padding-bottom: 50px;
+    }
+    .features-description p:nth-child(4){
+        font-size: 13px;
+        font-family: Raleway,sans-serif;
+        width: 85%;
+        padding-bottom: 54px;
+        line-height: 25px;
+        color: #8d9292;
+    }
+    .features-description button{
+        background: none;
+        border: 2px solid #8d9292;
+        width: 214px;
+        height: 47px;
+        border-radius: 50px;
+        font-size: 21px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        color: #8d9292;
+        cursor: pointer;
+    }
+    .gallerywrap h3{
+        font-size: 30px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        padding-bottom: 40px;
+        color: #8d9292;
+    }
+    .gallerywrap p{
+        font-size: 12px;
+        font-family: Raleway,sans-serif;
+        line-height: 26px;
+        color: #8d9292;
+    }
+    .slider1{
+        display: flex;
+        justify-content: center;
+        width: 108%;
+        padding: 0;
+        margin: 0 auto;
+        margin-left: -38px;
+    }
+    .bx-next{
+        right: -70px !important;
+        background: url(../images/features/arrownext.png) no-repeat !important;
+    }
+    .bx-prev{
+        left: -40px!important;
+        background: url(../images/features/arrowprev.png) no-repeat !important;
+    }
+    .productintro h3{
+        color: #87c98b;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        width: 100%;
+        font-size: 25px;
+    }
+    .productintro p:nth-child(3){
+        font-size: 25px;
+        color: #8d9292;
+        width: 100%;
+        font-family: Raleway,sans-serif;
+        padding-bottom: 50px;
+    }
+    .productintro p:nth-child(4){
+        font-size: 12px;
+        font-family: Raleway,sans-serif;
+        width: 100%;
+        padding-bottom: 54px;
+        line-height: 25px;
+        color: #8d9292;
+    }
+    .productintro button{
+        background: none;
+        border: 2px solid #8d9292;
+        width: 224px;
+        height: 48px;
+        border-radius: 50px;
+        font-size: 21px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        color: #8d9292;
+        cursor: pointer;
+    }
+    .testimonialswrap{
+        margin-top: 50px;
+    }
+    .sliderwrap2{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    .newstext h3{
+        font-size: 21px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        color: #8d9292;
+        padding-top: 58px;
+    }
+    .newstext {
+        width: 375px;
+    }
+    .newsintrowrap {
+        display: flex;
+    }
+    .formmail button{
+        background: none;
+        border: none;
+        background-color: #87c98a;
+        border-radius: 50px;
+        width: 172px;
+        height: 56px;
+        position: relative;
+        right: 88px;
+        color: #ffffff;
+        font-family: Raleway,sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 425px){
+    .header-bottomintro h2{
+        padding-bottom: 13px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .topsecond-intro{
+        padding-bottom: 8px;
+        font-size: 22px;
+        font-family: Raleway,sans-serif;
+    }
+    .header-bottomintro p:nth-child(3){
+        line-height: 25px;
+        color: #a9c6d0;
+        font-family: Raleway,sans-serif;
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+    .header-bottomintro{
+        width: 100%;
+        padding-top: 17px;
+        color: #ffffff;
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .header-bottomintro button{
+        background: none;
+        width: 143px;
+        height: 36px;
+        border: 2px solid #a9c6d0;
+        border-radius: 50px;
+        color: #ffffff;
+        font-family: Raleway,sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .pics img{
+        width: 100%;
+        height: 82%;
+        position: relative;
+        top: 141px;
+    }
+    .top-nav ul{
+        margin-left: -100px;
+        padding-top: 10px;
+    }
+    .top-menuwrap{
+        width: 50%;
+        position: absolute;
+        top: 150px;
+        left: 206px;
+    }
+    #burger{
+        display: flex;
+        width: 45px;
+        height: 45px;
+        background: initial;
+        border: none;
+        background-image: url(../images/features/burger_menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #close{
+        display: flex;
+        width: 45px;
+        height: 45px;
+        background: initial;
+        border: none;
+        background-image: url(../images/features/burger_menu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 25px;
+        right: 42px;
+    }
+    #menupanel{
+        height: 100vh;
+        display: none;
+    }
+    .burgerwrap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+   .features-wrap p{
+        padding-bottom: 68px;
+        font-size: 10px;
+        font-family: Raleway,sans-serif;
+        color: #8d9292;
+        line-height: 23px;
+    }
+    #greenline{
+        display: none;
+    }
+    .right-line{
+       display:none;
+    }
+    .left-menuwrap{
+        width: 0;
+    }
+    .right-blockwrap{
+        width: 100%;
+    }
+    .right-block{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 60px;
+        text-align: left;
+        position: relative
+    }
+    .features-wrap h3{
+        font-size: 18px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        color: #8d9292;
+        padding-bottom: 40px;
+    }
+    .features-wrap p{
+        padding-bottom: 68px;
+        font-size: 13px;
+        font-family: Raleway,sans-serif;
+        color: #8d9292;
+        line-height: 23px;
+    }
+    .preview{
+        display: block;
+    }
+    .featurewrap{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+    .features-phone{
+        padding-right: 6px;
+        padding-top: 110px;
+        padding-bottom: 1px;
+    }
+    .features-description{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .gallerywrap h3{
+        font-size: 25px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        padding-bottom: 40px;
+        color: #8d9292;
+    }
+    .gallerywrap p{
+        font-size: 12px;
+        font-family: Raleway,sans-serif;
+        line-height: 23px;
+        color: #8d9292;
+        padding: 0 35px;
+    }
+    .slider1{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bx-next, .bx-prev{
+        display: none;
+    }
+    .productwrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        padding-right: 39px;
+        padding-top: 82px;
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+    .productintro{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 84px;
+    }
+    .testimonials h3{
+        text-align: center;
+        padding-bottom: 44px;
+        font-family: Raleway, sans-serif;
+        color: #666c6c;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .newsintrowrap{
+        display: flex;
+    }
+    .anvelope{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 57px;
+    }
+    .newstext{
+        width: 450px;
+    }
+    .formmail input{
+        width: 1500px;
+        height: 56px;
+        border: 1px solid #c5c5c5;
+        border-radius: 50px;
+        margin-left: 0;
+        padding-left: 66px;
+        padding-right: 66px;
+    }
+    .formmail button{
+        background: none;
+        border: none;
+        background-color: #87c98a;
+        border-radius: 50px;
+        width: 172px;
+        height: 56px;
+        position: relative;
+        right: 79px;
+        color: #ffffff;
+        font-family: Raleway,sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .footer-links li{
+        display: inline-block;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen  and (max-width: 375px){
+    .newstext{
+        width: 375px;
+    }
+    .newstext h3{
+        font-size: 19px;
+        font-family: Raleway,sans-serif;
+        font-weight: bold;
+        color: #8d9292;
+        padding-top: 58px;
+    }
+    .top-menuwrap{
+
+    }
+    .newsintrowrap{
+        display: flex;
+        padding-left: 17px;
+        padding-right: 100px;
+    }
+    .formmail button{
+        background: none;
+        border: none;
+        background-color: #87c98a;
+        border-radius: 50px;
+        width: 172px;
+        height: 56px;
+        position: relative;
+        right: 77px;
+        color: #ffffff;
+        font-family: Raleway,sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+
+}
+@media screen and(max-width: 360px){
+
+}
