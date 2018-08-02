@@ -35,13 +35,12 @@ header{
 .top-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 36px;
     padding-top: 25px;
 }
 .top-nav ul{
-    margin-left: -88px;
     padding-top: 10px;
 
 }
@@ -87,9 +86,9 @@ header{
     padding-bottom: 80px;
 }
 .header-bottomintro{
-    width: 75%;
+    width: 88%;
     padding-top: 80px;
-    padding-left: 321px;
+    padding-left: 193px;
     color: #ffffff;
     text-align: left;
 }
@@ -503,6 +502,16 @@ header{
     padding-bottom: 62px;
     width: 85%;
 }
+.slide2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsintrowrap{
+    display: flex;
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .anvelope{
     display: flex;
     justify-content: flex-end;
@@ -545,6 +554,7 @@ header{
     font-size: 20px;
     font-weight: bold;
 }
+
 /*end newsletter*/
 .footerwrap{
     background-color: #323432;
@@ -556,7 +566,6 @@ header{
     color: #8d9393;
     font-family: Raleway,sans-serif;
     font-size: 24px;
-
 }
 .social-icon{
     padding-bottom: 70px;

@@ -1,7 +1,75 @@
+@media screen and (max-width: 2560px){
+    .sitecontainer{
+
+    }
+    .top-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 36px;
+        padding-top: 25px;
+    }
+    .top-nav{
+        margin-right: 400px;
+    }
+
+
+    .header-bottomintro{
+        width: 39%;
+        padding-top: 80px;
+        padding-left: 286px;
+        color: #ffffff;
+        text-align: left;
+    }
+    .features-description{
+        width: 50%;
+        padding-top: 162px;
+        margin-left: auto;
+    }
+    .features-phone{
+        padding-right: 150px;
+        padding-top: 82px;
+        padding-bottom: 82px;
+        margin-right: auto;
+    }
+    .image{
+        padding-right: 150px;
+        padding-top: 82px;
+        padding-bottom: 82px;
+        margin-left: auto;
+    }
+
+}
+@media screen and (max-width: 1440px){
+    .top-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 36px;
+        padding-top: 25px;
+    }
+    .top-nav{
+        margin-right: 0;
+    }
+    .top-nav ul{
+        padding-right: 224px ;
+    }
+    .header-bottomintro{
+        width: 88%;
+        padding-top: 80px;
+        padding-left: 193px;
+        color: #ffffff;
+        text-align: left;
+    }
+
+}
 @media screen and (max-width: 1024px){
     .top-nav ul{
         margin-left: -15px;
         padding-top: 10px;
+        padding-right: 0;
     }
     .nav-menu li{
         display: inline-block;
@@ -124,12 +192,13 @@
         height: 45px;
         background: initial;
         border: none;
-        background-image: url(../images/features/burger_menu.png);
+        background-image: url(../images/features/burger_close.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
         top: 25px;
         right: 77px;
+        display: none;
     }
     #menupanel{
         height: 100vh;
@@ -224,6 +293,12 @@
         display: flex;
         cursor: pointer;
         justify-content: flex-start;
+    }
+    .right-line{
+        border: none;
+    }
+    #greenline{
+        background-color: initial;
     }
     .features-description h3{
         color: #87c98b;
@@ -357,6 +432,13 @@
         font-size: 20px;
         font-weight: bold;
     }
+    .formmail input{
+        width: 710px;
+        height: 56px;
+        border: 1px solid #c5c5c5;
+        border-radius: 50px;
+        margin-left: 0;
+    }
 }
 @media screen and (max-width: 425px){
     .header-bottomintro h2{
@@ -407,10 +489,10 @@
         padding-top: 10px;
     }
     .top-menuwrap{
-        width: 50%;
+        width: 43%;
         position: absolute;
         top: 150px;
-        left: 206px;
+        left: 181px;
     }
     #burger{
         display: flex;
@@ -428,12 +510,13 @@
         height: 45px;
         background: initial;
         border: none;
-        background-image: url(../images/features/burger_menu.png);
+        background-image: url(../images/features/burger_close.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
-        top: 25px;
-        right: 42px;
+        top: 24px;
+        right: 44px;
+        display: none;
     }
     #menupanel{
         height: 100vh;
@@ -600,8 +683,19 @@
         color: #8d9292;
         padding-top: 58px;
     }
-    .top-menuwrap{
-
+    #close{
+        display: flex;
+        width: 45px;
+        height: 45px;
+        background: initial;
+        border: none;
+        background-image: url(../images/features/burger_close.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 24px;
+        right: 38px;
+        display: none;
     }
     .newsintrowrap{
         display: flex;
@@ -622,7 +716,17 @@
         font-size: 20px;
         font-weight: bold;
     }
-
+    .newsintro{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 62px;
+        width: 58%;
+    }
+    .newsintrowrap{
+        display: flex;
+         padding-left: 0;
+         padding-right: 0;
+    }
 
 
 }

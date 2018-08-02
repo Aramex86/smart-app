@@ -13,10 +13,7 @@ $(document).ready(function() {
         $(".top-contacts").css("display","none");
         $("#burger").show();
         $("#close").hide();
-
-
     });
-
 
 
 
