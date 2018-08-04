@@ -13,10 +13,17 @@
     .top-nav{
         margin-right: 400px;
     }
-
+    .header-bottomintro p:nth-child(3){
+        line-height: 25px;
+        color: #a9c6d0;
+        font-family: Raleway,sans-serif;
+        font-size: 14px;
+        padding-bottom: 55px;
+        width: 71%;
+    }
 
     .header-bottomintro{
-        width: 39%;
+        width: 78%;
         padding-top: 80px;
         padding-left: 286px;
         color: #ffffff;
@@ -54,7 +61,11 @@
         margin-right: 0;
     }
     .top-nav ul{
-        padding-right: 224px ;
+        padding-right: 238px ;
+    }
+    .nav-menu li{
+        display: inline-block;
+        padding-left: 26px;
     }
     .header-bottomintro{
         width: 88%;
@@ -62,6 +73,58 @@
         padding-left: 193px;
         color: #ffffff;
         text-align: left;
+    }
+    .header-bottomintro p:nth-child(3){
+        line-height: 25px;
+        color: #a9c6d0;
+        font-family: Raleway,sans-serif;
+        font-size: 14px;
+        padding-bottom: 55px;
+        width: 66%;
+    }
+
+}
+
+@media screen and (max-width: 1366px){
+    .top-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 36px;
+        padding-top: 25px;
+    }
+    .top-nav{
+        margin-right: 0;
+    }
+    .top-nav ul{
+        padding-right: 238px ;
+    }
+    .nav-menu li{
+        display: inline-block;
+        padding-left: 26px;
+    }
+    .header-bottomintro{
+        width: 88%;
+        padding-top: 80px;
+        padding-left: 193px;
+        color: #ffffff;
+        text-align: left;
+    }
+    .header-bottomintro p:nth-child(3){
+        line-height: 25px;
+        color: #a9c6d0;
+        font-family: Raleway,sans-serif;
+        font-size: 14px;
+        padding-bottom: 55px;
+        width: 66%;
+    }
+    #leftmenu p{
+        color: rgb(153, 172, 172);
+        padding-top: 26px;
+        float: right;
+        padding-left: 10px;
+        padding-right: 25px;
     }
 
 }
@@ -74,6 +137,14 @@
     .nav-menu li{
         display: inline-block;
         padding-left: 29px;
+    }
+    .header-bottomintro p:nth-child(3){
+        line-height: 25px;
+        color: #a9c6d0;
+        font-family: Raleway,sans-serif;
+        font-size: 14px;
+        padding-bottom: 55px;
+        width: 72%;
     }
     .top-contacts li{
         display: inline-block;
